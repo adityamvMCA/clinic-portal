@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  Clinic Appointment Calendar (Frontend)
 
 A responsive React-based appointment calendar built for front desk staff at clinics or hospitals. This tool enables staff to schedule, edit, and delete patient appointments with ease, complete with doctor filtering, mobile responsiveness, and dark mode support.
@@ -30,3 +31,4 @@ src/
 yaml
 Copy
 Edit
+=======
