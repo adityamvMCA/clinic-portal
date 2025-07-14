@@ -1,0 +1,71 @@
+
+.react-calendar {
+  border: none;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+}
+
+
+.react-calendar__month-view__weekdays {
+  display: grid !important;
+  grid-template-columns: repeat(7, 1fr);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #6b7280;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.react-calendar__month-view__days {
+  display: grid !important;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.react-calendar__tile {
+  padding: 8px 6px;
+  min-height: 110px;
+  max-height: 140px;
+  border-radius: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: normal;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+.react-calendar__tile--active {
+  background: transparent !important;
+  font-weight: bold;
+  color: inherit;
+  outline: none;
+}
+
+/* Highlight today */
+.react-calendar__tile--now {
+  background: #dbeafe;
+  font-weight: bold;
+}
+
+/* Appointment list (scrollable) */
+.custom-scrollbar {
+  max-height: 90px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Scrollbar style */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.react-calendar__month-view__days {
+  grid-template-columns: repeat(7, 1fr) !important;
+}
